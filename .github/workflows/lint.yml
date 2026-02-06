@@ -23,3 +23,6 @@ jobs:
 
       - name: Run linters
         run: npm run lint
+
+      - name: Set ESLint binary as executable
+        run: chmod +x node_modules/.bin/eslint 
