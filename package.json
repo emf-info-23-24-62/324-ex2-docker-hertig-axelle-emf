@@ -6,6 +6,6 @@
     "globals": "^17.3.0"
   },
   "scripts": {
-      "lint": "eslint ."
+      "lint": "npx eslint ."
     }
 }
